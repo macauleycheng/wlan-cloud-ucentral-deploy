@@ -31,8 +31,8 @@ services:
       - "16101:16101"
 
   owls:
-          #image: "tip-tip-wlan-cloud-ucentral.jfrog.io/owls:${OWLS_TAG}"
-          image: ecpaas-dockerhub.atan-networks.com.cn/tip/owls:nossl
+    #image: "tip-tip-wlan-cloud-ucentral.jfrog.io/owls:${OWLS_TAG}"
+    image: ecpaas-dockerhub.atan-networks.com.cn/tip/owls:nossl
     networks:
       owls:
         aliases:
