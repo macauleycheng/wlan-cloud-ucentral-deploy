@@ -18,7 +18,8 @@ networks:
 
 services:
   owgw:
-    image: "tip-tip-wlan-cloud-ucentral.jfrog.io/owgw:${OWGW_TAG}"
+          #image: "tip-tip-wlan-cloud-ucentral.jfrog.io/owgw:${OWGW_TAG}"
+    image: ecpaas-dockerhub.atan-networks.com.cn/tip/owgw:nossl
     networks:
       openwifi:
         aliases:
